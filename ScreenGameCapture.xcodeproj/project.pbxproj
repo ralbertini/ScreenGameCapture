@@ -6,63 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		40B6C65D2E96D4B300491BF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 40B6C6452E96D4AF00491BF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 40B6C64C2E96D4AF00491BF0;
-			remoteInfo = ScreenGameCapture;
-		};
-		40B6C6672E96D4B400491BF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 40B6C6452E96D4AF00491BF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 40B6C64C2E96D4AF00491BF0;
-			remoteInfo = ScreenGameCapture;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		40B6C64D2E96D4AF00491BF0 /* ScreenGameCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenGameCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B6C65C2E96D4B300491BF0 /* ScreenGameCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenGameCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B6C6662E96D4B400491BF0 /* ScreenGameCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenGameCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		403BE6A92E96DD47002A4462 /* ScreenGameCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenGameCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		40B6C64F2E96D4AF00491BF0 /* ScreenGameCapture */ = {
+		403BE6AB2E96DD47002A4462 /* ScreenGameCapture */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ScreenGameCapture;
-			sourceTree = "<group>";
-		};
-		40B6C65F2E96D4B400491BF0 /* ScreenGameCaptureTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScreenGameCaptureTests;
-			sourceTree = "<group>";
-		};
-		40B6C6692E96D4B400491BF0 /* ScreenGameCaptureUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScreenGameCaptureUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40B6C64A2E96D4AF00491BF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40B6C6592E96D4B300491BF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40B6C6632E96D4B400491BF0 /* Frameworks */ = {
+		403BE6A62E96DD47002A4462 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40B6C6442E96D4AF00491BF0 = {
+		403BE6A02E96DD47002A4462 = {
 			isa = PBXGroup;
 			children = (
-				40B6C64F2E96D4AF00491BF0 /* ScreenGameCapture */,
-				40B6C65F2E96D4B400491BF0 /* ScreenGameCaptureTests */,
-				40B6C6692E96D4B400491BF0 /* ScreenGameCaptureUITests */,
-				40B6C64E2E96D4AF00491BF0 /* Products */,
+				403BE6AB2E96DD47002A4462 /* ScreenGameCapture */,
+				403BE6AA2E96DD47002A4462 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		40B6C64E2E96D4AF00491BF0 /* Products */ = {
+		403BE6AA2E96DD47002A4462 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40B6C64D2E96D4AF00491BF0 /* ScreenGameCapture.app */,
-				40B6C65C2E96D4B300491BF0 /* ScreenGameCaptureTests.xctest */,
-				40B6C6662E96D4B400491BF0 /* ScreenGameCaptureUITests.xctest */,
+				403BE6A92E96DD47002A4462 /* ScreenGameCapture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40B6C64C2E96D4AF00491BF0 /* ScreenGameCapture */ = {
+		403BE6A82E96DD47002A4462 /* ScreenGameCapture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40B6C6702E96D4B400491BF0 /* Build configuration list for PBXNativeTarget "ScreenGameCapture" */;
+			buildConfigurationList = 403BE6B62E96DD4A002A4462 /* Build configuration list for PBXNativeTarget "ScreenGameCapture" */;
 			buildPhases = (
-				40B6C6492E96D4AF00491BF0 /* Sources */,
-				40B6C64A2E96D4AF00491BF0 /* Frameworks */,
-				40B6C64B2E96D4AF00491BF0 /* Resources */,
+				403BE6A52E96DD47002A4462 /* Sources */,
+				403BE6A62E96DD47002A4462 /* Frameworks */,
+				403BE6A72E96DD47002A4462 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				40B6C64F2E96D4AF00491BF0 /* ScreenGameCapture */,
+				403BE6AB2E96DD47002A4462 /* ScreenGameCapture */,
 			);
 			name = ScreenGameCapture;
 			packageProductDependencies = (
 			);
 			productName = ScreenGameCapture;
-			productReference = 40B6C64D2E96D4AF00491BF0 /* ScreenGameCapture.app */;
+			productReference = 403BE6A92E96DD47002A4462 /* ScreenGameCapture.app */;
 			productType = "com.apple.product-type.application";
-		};
-		40B6C65B2E96D4B300491BF0 /* ScreenGameCaptureTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 40B6C6732E96D4B400491BF0 /* Build configuration list for PBXNativeTarget "ScreenGameCaptureTests" */;
-			buildPhases = (
-				40B6C6582E96D4B300491BF0 /* Sources */,
-				40B6C6592E96D4B300491BF0 /* Frameworks */,
-				40B6C65A2E96D4B300491BF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				40B6C65E2E96D4B300491BF0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				40B6C65F2E96D4B400491BF0 /* ScreenGameCaptureTests */,
-			);
-			name = ScreenGameCaptureTests;
-			packageProductDependencies = (
-			);
-			productName = ScreenGameCaptureTests;
-			productReference = 40B6C65C2E96D4B300491BF0 /* ScreenGameCaptureTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		40B6C6652E96D4B400491BF0 /* ScreenGameCaptureUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 40B6C6762E96D4B400491BF0 /* Build configuration list for PBXNativeTarget "ScreenGameCaptureUITests" */;
-			buildPhases = (
-				40B6C6622E96D4B400491BF0 /* Sources */,
-				40B6C6632E96D4B400491BF0 /* Frameworks */,
-				40B6C6642E96D4B400491BF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				40B6C6682E96D4B400491BF0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				40B6C6692E96D4B400491BF0 /* ScreenGameCaptureUITests */,
-			);
-			name = ScreenGameCaptureUITests;
-			packageProductDependencies = (
-			);
-			productName = ScreenGameCaptureUITests;
-			productReference = 40B6C6662E96D4B400491BF0 /* ScreenGameCaptureUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		40B6C6452E96D4AF00491BF0 /* Project object */ = {
+		403BE6A12E96DD47002A4462 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					40B6C64C2E96D4AF00491BF0 = {
+					403BE6A82E96DD47002A4462 = {
 						CreatedOnToolsVersion = 16.4;
-					};
-					40B6C65B2E96D4B300491BF0 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 40B6C64C2E96D4AF00491BF0;
-					};
-					40B6C6652E96D4B400491BF0 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 40B6C64C2E96D4AF00491BF0;
 					};
 				};
 			};
-			buildConfigurationList = 40B6C6482E96D4AF00491BF0 /* Build configuration list for PBXProject "ScreenGameCapture" */;
+			buildConfigurationList = 403BE6A42E96DD47002A4462 /* Build configuration list for PBXProject "ScreenGameCapture" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 40B6C6442E96D4AF00491BF0;
+			mainGroup = 403BE6A02E96DD47002A4462;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 40B6C64E2E96D4AF00491BF0 /* Products */;
+			productRefGroup = 403BE6AA2E96DD47002A4462 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40B6C64C2E96D4AF00491BF0 /* ScreenGameCapture */,
-				40B6C65B2E96D4B300491BF0 /* ScreenGameCaptureTests */,
-				40B6C6652E96D4B400491BF0 /* ScreenGameCaptureUITests */,
+				403BE6A82E96DD47002A4462 /* ScreenGameCapture */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40B6C64B2E96D4AF00491BF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40B6C65A2E96D4B300491BF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40B6C6642E96D4B400491BF0 /* Resources */ = {
+		403BE6A72E96DD47002A4462 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40B6C6492E96D4AF00491BF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40B6C6582E96D4B300491BF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40B6C6622E96D4B400491BF0 /* Sources */ = {
+		403BE6A52E96DD47002A4462 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,21 +124,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		40B6C65E2E96D4B300491BF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 40B6C64C2E96D4AF00491BF0 /* ScreenGameCapture */;
-			targetProxy = 40B6C65D2E96D4B300491BF0 /* PBXContainerItemProxy */;
-		};
-		40B6C6682E96D4B400491BF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 40B6C64C2E96D4AF00491BF0 /* ScreenGameCapture */;
-			targetProxy = 40B6C6672E96D4B400491BF0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		40B6C66E2E96D4B400491BF0 /* Debug */ = {
+		403BE6B42E96DD4A002A4462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		40B6C66F2E96D4B400491BF0 /* Release */ = {
+		403BE6B52E96DD4A002A4462 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -387,7 +243,7 @@
 			};
 			name = Release;
 		};
-		40B6C6712E96D4B400491BF0 /* Debug */ = {
+		403BE6B72E96DD4A002A4462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -404,6 +260,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomatealbertini.ScreenGameCapture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		40B6C6722E96D4B400491BF0 /* Release */ = {
+		403BE6B82E96DD4A002A4462 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -430,119 +287,38 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomatealbertini.ScreenGameCapture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		40B6C6742E96D4B400491BF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tomatealbertini.ScreenGameCaptureTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenGameCapture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenGameCapture";
-			};
-			name = Debug;
-		};
-		40B6C6752E96D4B400491BF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tomatealbertini.ScreenGameCaptureTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenGameCapture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenGameCapture";
-			};
-			name = Release;
-		};
-		40B6C6772E96D4B400491BF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tomatealbertini.ScreenGameCaptureUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ScreenGameCapture;
-			};
-			name = Debug;
-		};
-		40B6C6782E96D4B400491BF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tomatealbertini.ScreenGameCaptureUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ScreenGameCapture;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40B6C6482E96D4AF00491BF0 /* Build configuration list for PBXProject "ScreenGameCapture" */ = {
+		403BE6A42E96DD47002A4462 /* Build configuration list for PBXProject "ScreenGameCapture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40B6C66E2E96D4B400491BF0 /* Debug */,
-				40B6C66F2E96D4B400491BF0 /* Release */,
+				403BE6B42E96DD4A002A4462 /* Debug */,
+				403BE6B52E96DD4A002A4462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40B6C6702E96D4B400491BF0 /* Build configuration list for PBXNativeTarget "ScreenGameCapture" */ = {
+		403BE6B62E96DD4A002A4462 /* Build configuration list for PBXNativeTarget "ScreenGameCapture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40B6C6712E96D4B400491BF0 /* Debug */,
-				40B6C6722E96D4B400491BF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		40B6C6732E96D4B400491BF0 /* Build configuration list for PBXNativeTarget "ScreenGameCaptureTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40B6C6742E96D4B400491BF0 /* Debug */,
-				40B6C6752E96D4B400491BF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		40B6C6762E96D4B400491BF0 /* Build configuration list for PBXNativeTarget "ScreenGameCaptureUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40B6C6772E96D4B400491BF0 /* Debug */,
-				40B6C6782E96D4B400491BF0 /* Release */,
+				403BE6B72E96DD4A002A4462 /* Debug */,
+				403BE6B82E96DD4A002A4462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 40B6C6452E96D4AF00491BF0 /* Project object */;
+	rootObject = 403BE6A12E96DD47002A4462 /* Project object */;
 }

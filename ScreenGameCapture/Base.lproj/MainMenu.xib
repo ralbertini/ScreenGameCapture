@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="24128" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24128"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -12,7 +13,7 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="testeleitortela" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ScreenGameCapture" customModuleProvider="target">
             <connections>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -20,11 +21,11 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="testeleitortela" id="1Xt-HY-uBw">
+                <menuItem title="ScreenGameCapture" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="testeleitortela" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="ScreenGameCapture" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About testeleitortela" id="5kV-Vb-QxS">
+                            <menuItem title="About ScreenGameCapture" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
@@ -38,7 +39,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                            <menuItem title="Hide testeleitortela" keyEquivalent="h" id="Olw-nP-bQN">
+                            <menuItem title="Hide ScreenGameCapture" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
                                 </connections>
@@ -56,7 +57,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit testeleitortela" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit ScreenGameCapture" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -669,7 +670,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                         <items>
-                            <menuItem title="testeleitortela Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                            <menuItem title="ScreenGameCapture Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                 <connections>
                                     <action selector="showHelp:" target="-1" id="y7X-2Q-9no"/>
                                 </connections>
@@ -680,33 +681,27 @@
             </items>
             <point key="canvasLocation" x="200" y="121"/>
         </menu>
-        <window title="testeleitortela" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="ScreenGameCapture" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1512" height="948"/>
-            <view key="contentView" id="EiT-Mj-1SZ" customClass="MyCustomView" customModule="testeleitortela" customModuleProvider="target">
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1055"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Hx8-CE-T8D">
-                        <rect key="frame" x="182" y="168" width="117" height="24"/>
-                        <buttonCell key="cell" type="push" title="Captura de tela" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Euz-eh-rtX">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UII-zu-4Zh">
+                        <rect key="frame" x="203" y="163" width="75" height="32"/>
+                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="tKw-Sc-Fc5">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
-                        <connections>
-                            <action selector="testeAction:" target="EiT-Mj-1SZ" id="GdG-11-2Bv"/>
-                        </connections>
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Hx8-CE-T8D" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="Xtc-0G-dTC"/>
-                    <constraint firstItem="Hx8-CE-T8D" firstAttribute="centerY" secondItem="EiT-Mj-1SZ" secondAttribute="centerY" id="h3O-WD-Q1i"/>
+                    <constraint firstItem="UII-zu-4Zh" firstAttribute="centerY" secondItem="EiT-Mj-1SZ" secondAttribute="centerY" id="kaX-Au-xiL"/>
+                    <constraint firstItem="UII-zu-4Zh" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="kaw-em-HlO"/>
                 </constraints>
-                <connections>
-                    <outlet property="teste" destination="Hx8-CE-T8D" id="ahO-ir-W03"/>
-                </connections>
             </view>
             <connections>
                 <outlet property="delegate" destination="Voe-Tx-rLC" id="top-28-M4D"/>
